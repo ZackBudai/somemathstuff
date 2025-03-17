@@ -6,11 +6,11 @@ Elliptic curves are fundamental objects in the field of algebraic geometry and h
 
 An elliptic curve over a field \(K\) (often the real numbers \(\mathbb{R}\), complex numbers \(\mathbb{C}\), or a finite field \(\mathbb{F}_p\)) is given by an equation of the form:
 
-$$ y^2 = x^3 + ax + b $$
+\[ y^2 = x^3 + ax + b \]
 
 where \(a\) and \(b\) are elements of \(K\) and satisfy the non-singularity condition:
 
-$$ 4a^3 + 27b^2 \neq 0 $$
+\[ 4a^3 + 27b^2 \neq 0 \]
 
 This condition ensures that the curve has no cusps or self-intersections.
 
