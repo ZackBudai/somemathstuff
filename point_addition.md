@@ -15,22 +15,28 @@ For points \(P = (x_1, y_1)\) and \(Q = (x_2, y_2)\) on the elliptic curve \(y^2
 
 1. **Distinct Points** (\(P \neq Q\)):
    The slope \(m\) of the line through \(P\) and \(Q\) is:
-   \[ m = \frac{y_2 - y_1}{x_2 - x_1} \]
+
+   $$ m = \frac{y_2 - y_1}{x_2 - x_1} $$
+
    The coordinates of the resulting point \(R = (x_3, -y_3)\) are:
-   \[ x_3 = m^2 - x_1 - x_2 \]
-   \[ y_3 = m(x_1 - x_3) - y_1 \]
+
+   $$ x_3 = m^2 - x_1 - x_2 $$
+   $$ y_3 = m(x_1 - x_3) - y_1 $$
 
 2. **Same Point** (\(P = Q\)):
    The slope \(m\) of the tangent line at \(P\) is:
-   \[ m = \frac{3x_1^2 + a}{2y_1} \]
+
+   $$ m = \frac{3x_1^2 + a}{2y_1} $$
+
    The coordinates of the resulting point \(R = (x_3, -y_3)\) are:
-   \[ x_3 = m^2 - 2x_1 \]
-   \[ y_3 = m(x_1 - x_3) - y_1 \]
+
+   $$ x_3 = m^2 - 2x_1 $$
+   $$ y_3 = m(x_1 - x_3) - y_1 $$
 
 ### Special Cases
 
 - **Point at Infinity**: If one of the points is the point at infinity \(\mathcal{O}\), the result of the addition is the other point:
-  \[ P + \mathcal{O} = P \]
+  $$ P + \mathcal{O} = P $$
 - **Inverse Points**: If \(P = (x, y)\) and \(Q = (x, -y)\), then \(P + Q = \mathcal{O}\).
 
 ### Applications

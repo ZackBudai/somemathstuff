@@ -10,7 +10,7 @@ In the projective plane, an elliptic curve can be represented by a homogeneous e
 
 The point at infinity acts as the identity element in the group of points on an elliptic curve. This means that for any point \(P\) on the curve, the following holds:
 
-\[ P + \mathcal{O} = P \]
+$$ P + \mathcal{O} = P $$
 
 This property is analogous to the number zero in arithmetic, where adding zero to any number leaves it unchanged.
 
